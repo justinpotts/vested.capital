@@ -1,0 +1,51 @@
+html {
+  background-image: url("angel.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  min-height: 100%;
+}
+.btn {
+  background-color: white;
+  border-color:none;
+  font-size: 14px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:25px;
+  padding-right:25px;
+  border-color: lightgrey;
+}
+button:hover {
+  cursor: default !important;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  font-family: 'Lato', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #ffffff;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.header {
+  font-size: 24px;
+  color: black;
+  font-weight:900;
+  margin-bottom:.5rem;
+}
+.subtext {
+  font-weight:300;
+  font-size: 18px;
+  color: #838383;
+  line-height:1.75;
+}
